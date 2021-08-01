@@ -1,0 +1,22 @@
+{
+  "name": "hoon-module-deploy",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": "https://github.com/jeffchoi72/hoon-module-deploy.git",
+  "author": "jeffchoi72 <ihello0720@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
